@@ -1,0 +1,12 @@
+[Project]
+Name = dsm-facchinetti
+Author = Tullio Facchinetti
+Description = Classification of terms about papers Demand-Side Management
+Keywords = demand-side management, smart grid, energy efficiency, load balancing, peak shaving
+Version = 1.0
+
+[Source]
+URL = www.scopus.com
+Query = (((TITLE-ABS-KEY("demand side management" OR "demand response" OR "electric load management" OR "home energy management" OR "direct load control") AND TITLE-ABS-KEY("peak load" OR "peak clipping" OR "peak shaving" OR "load shifting" OR "power leveling" OR "power levelling" OR "load profile" OR "peak power" OR "peak demand") AND LANGUAGE(english))))
+Date = 2021-03-01
+
